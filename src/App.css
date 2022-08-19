@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 70%;
+    width: 60%;
+}
+
+.Category {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.searchbar {
+    position: absolute;
+}
+
+.search {
+    position: relative;
+    top: 400px;
+    left: 500px;
+}
+
+.search>input {
+    width: 450px;
+    height: 34px;
+    border: none;
+    padding-left: 20px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
